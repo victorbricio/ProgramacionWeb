@@ -1,0 +1,248 @@
+h1{
+  color: blue;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.logo{
+  float: left;
+  width: 25%;
+}
+
+.identificador{
+  float: right;
+  width: 25%;
+}
+
+.Symbol{
+  float: left;
+  width: 30%;
+}
+
+.manaSymbol{
+  float: right;
+  width: 70%;
+}
+
+#mainscroll{
+  border:1px solid;
+  height:398px;
+  width:600px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  float: right;
+    }
+
+#scrolldetipos{
+  border:1px solid;
+  height:360px;
+  width:600px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+#biblioteca{
+  height:49%;
+  width: 49%;
+  float: left;
+}
+
+#negro{
+  color: black;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#azul{
+  color: blue;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#verde{
+  color: green;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#rojo{
+  color: red;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#blanco{
+  color: #FFFFFF;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#verdeAzul{
+  color: #1B8137;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#morado{
+  color: #A723ED;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#marron{
+  color: #966400;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#naranja{
+  color: #FF6800;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#lima{
+  color: #CCF0A1;
+  font-family: "calibri";
+  font-size: 190%;
+  font-style: italic;
+  background-color: #A0D642; 
+  border:0;
+}
+
+#recursos{
+  border:1px solid;
+  width: 50%;
+  float: left;
+}
+
+#combinaciones{
+  border:1px solid;
+  text-align: left;
+  float: right;
+  width: 49%;
+  font-size: 120%;
+}
+
+#masgrande{
+  font-size: 150%;
+}
+
+#descripcion{
+  text-align: center;
+  width: 100%;
+}
+
+#entrarFuera{
+  float: right;
+  width: 25%;
+}
+
+#entrarDentro{
+  float: left;
+  width: 30%;
+}
+
+.sectionNormal{
+  width: 100%;
+}
+
+body{
+  background-color: #A0D642;
+}
+
+section{
+  width: 40%;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-size: 200%;
+}
+
+@media (min-width: 1000px){
+  	.recursosIzquierda{
+	  float: left;
+	  width: 28%;
+	  border:1px solid;
+	  margin-left: 2em;
+	  margin-right: 2em;
+	  margin-top: 2em;
+	  margin-bottom: 2em;
+	}
+
+	.centro{
+	  width: 50%;
+	  text-align: center;
+	  margin-left: 5.5em;
+	}
+
+	/* edición, alta y borrado */
+	.edalbo{
+	  border:1px solid;
+	  text-align: center;
+	}
+
+	.secciones{
+	  float: left;
+	  width: 40%;
+	  margin-left: 1.5em;
+	  margin-right: 1.5em;
+	}
+}
+
+@media (max-width: 1000px){
+	.recursosIzquierda{
+	  width: 100%;
+	  border:1px solid;
+	}
+
+	.centro{
+	  text-align: center;
+	}
+
+	/* edición, alta y borrado */
+	.edalbo{
+	  text-align: center;
+	}
+
+	.secciones{
+	  float: left;
+	  width: 40%;
+	  margin-left: 1.5em;
+	  margin-right: 1.5em;
+	}
+}
